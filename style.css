@@ -284,8 +284,11 @@ section {
 
 .arrow-up {
     position: absolute;
-    right: -5rem;
+    right: 5rem;
     top: 5rem;
+}
+.arrow-up-cont {
+    position: relative;
 }
 
 .details-container {
@@ -375,6 +378,7 @@ article .icon {
 
 #contact {
     display: flex;
+    position: relative;
     justify-content: center;
     flex-direction: column;
     height: 70vh;
@@ -409,4 +413,13 @@ article .icon {
 
 .email-icon {
     height: 2.5rem;
+}
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
 }
